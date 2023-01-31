@@ -68,6 +68,17 @@ h1 {
   align-self: center;
 }
 
+.credits {
+  position: absolute;
+  font-size: 0.8rem;
+  bottom: 4%;
+  left: 32%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+a {
+  color: #fff;
+}
 .intro-message {
   text-align: left;
   padding: 70px 30px 25px;
@@ -80,7 +91,7 @@ p {
 
 h4 {
   text-align: left;
-  padding-left: 15px;
+  padding-left: 12px;
 }
 
 .form-container {
@@ -93,7 +104,7 @@ h4 {
 fieldset {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding: 10px;
   border: none;
 }
@@ -106,8 +117,13 @@ label {
   font-weight: bold;
 }
 
+input {
+  border-color: #e4e4e6;
+  padding: 5px;
+}
+
 form > fieldset > div:last-child {
-  padding-left: 82px;
+  padding-right: 82px;
 }
 
 .pass-message {
