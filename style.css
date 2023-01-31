@@ -25,8 +25,7 @@ body {
   justify-content: center;
 }
 
-#brand-side,
-#subscribe-side {
+.card-container > div {
   height: 100vh;
 }
 
@@ -34,6 +33,7 @@ body {
   position: relative;
   color: #fff;
 }
+
 #subscribe-side {
   width: 700px;
   text-align: center;
@@ -48,7 +48,9 @@ body {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
+  padding: 10px;
 }
+
 .brand-img {
   width: 450px;
   height: 100vh;
@@ -64,4 +66,15 @@ h1 {
   font-family: "Norse-Bold";
   font-size: 4rem;
   align-self: center;
+}
+
+.intro-message {
+  text-align: left;
+  font-size: 1rem;
+  padding: 70px 30px 25px;
+  font-weight: bold;
+}
+
+p {
+  margin: 15px;
 }
