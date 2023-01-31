@@ -122,6 +122,17 @@ input {
   padding: 5px;
 }
 
+input:focus {
+  outline: none !important;
+  border: 2px solid #048ef1;
+  box-shadow: rgba(91, 93, 95, 0.785) 0px 8px 20px;
+}
+
+.error {
+  outline: none !important;
+  border: 2px solid red;
+}
+
 .sec {
   padding-left: 82px;
 }
