@@ -25,6 +25,30 @@ body {
   justify-content: center;
 }
 
+#brand-side,
+#subscribe-side {
+  height: 100vh;
+}
+
+#brand-side {
+  position: relative;
+  color: #fff;
+}
+#subscribe-side {
+  width: 700px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#logo {
+  position: absolute;
+  top: 30%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
 .brand-img {
   width: 450px;
   height: 100vh;
@@ -33,4 +57,11 @@ body {
 .logo-img {
   height: 100px;
   width: auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Norse-Bold";
+  font-size: 4rem;
+  align-self: center;
 }
