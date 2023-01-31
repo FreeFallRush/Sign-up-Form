@@ -24,3 +24,13 @@ body {
   direction: row;
   justify-content: center;
 }
+
+.brand-img {
+  width: 450px;
+  height: 100vh;
+}
+
+.logo-img {
+  height: 100px;
+  width: auto;
+}
