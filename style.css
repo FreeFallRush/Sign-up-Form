@@ -104,7 +104,7 @@ h4 {
 fieldset {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 10px;
   border: none;
 }
@@ -122,8 +122,12 @@ input {
   padding: 5px;
 }
 
-form > fieldset > div:last-child {
-  padding-right: 82px;
+.sec {
+  padding-left: 82px;
+}
+
+.confirmfield {
+  padding-left: 61px;
 }
 
 .pass-message {
