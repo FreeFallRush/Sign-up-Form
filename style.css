@@ -81,7 +81,7 @@ a {
 }
 .intro-message {
   text-align: left;
-  padding: 70px 30px 25px;
+  padding: 80px 30px 25px;
   font-weight: bold;
 }
 
@@ -139,4 +139,47 @@ input {
 
 .hidden {
   visibility: hidden;
+}
+
+.subscription {
+  padding-left: 10px;
+  text-align: left;
+}
+
+button {
+  cursor: pointer;
+  width: 170px;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-image: linear-gradient(
+    to right,
+    #d38312 0%,
+    #a83279 51%,
+    #d38312 100%
+  );
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-image: linear-gradient(
+    to right,
+    #bdc3c7 0%,
+    #2c3e50 51%,
+    #bdc3c7 100%
+  );
+  background-position: right center;
+}
+
+.login-message a {
+  color: #a83279;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-message a:hover {
+  color: #d38312;
 }
